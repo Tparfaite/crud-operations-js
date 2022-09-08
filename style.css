@@ -1,15 +1,22 @@
 table{
     border-collapse: collapse;
+    margin-top: 20px;
 }
 .main-table{
     background-color: aquamarine;
     height: 400px;
     border: none;
     margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 1000px;
+    margin-top: 30px;
+    
 }
 .form1{
     background-color: aqua;
-    width: 250px;
+    width: 300px;
     padding-left: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -17,6 +24,7 @@ table{
 }
 .table2{
     background-color: aliceblue;
+    width: 500px;
 }
 #submit{
     background-color: rgba(0, 128, 0, 0.856);
